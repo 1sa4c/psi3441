@@ -1,0 +1,13 @@
+/ {
+	aliases {
+		my-adc = &adc0;
+	};
+};
+
+&adc0 {
+	status = "okay";
+};
+
+&uart0 {
+	current-speed = <230400>;
+};
